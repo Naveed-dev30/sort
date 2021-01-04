@@ -1,4 +1,4 @@
-## [2.6.0]
+## [0.0.2]
 * Added example and fixed documentation
 
 ## [0.0.1]
