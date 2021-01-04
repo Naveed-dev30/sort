@@ -1,3 +1,7 @@
-## [0.0.1] - TODO: Add release date.
+## [2.6.0]
+* Added example and fixed documentation
 
-* TODO: Describe initial release.
+## [0.0.1]
+
+* Publish the packages to pub.dev
+
