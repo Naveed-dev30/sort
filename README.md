@@ -27,25 +27,25 @@ import 'package:sort/sort.dart';
 Simple sort 
 ```dart
 var numbers = [9.0,3.1,2.3,6.1,4.5,5.3,1.6,8.3,7.9];
-var sortedtNumbers = numbers.simpleSort();
-print('$sortedNumbers');
-//sortedNumber is now as [1.6,2.3,3.1,4.5,5.3,6.1,7.9,8.3,9.0]
+numbers.simpleSort();
+print('$numbers');
+//numbers is now as [1.6,2.3,3.1,4.5,5.3,6.1,7.9,8.3,9.0]
 ```
 
 Quick sort 
 ```dart
 var numbers = [9.0,3.1,2.3,6.1,4.5,5.3,1.6,8.3,7.9];
-var sortedtNumbers = numbers.quickSort();
-print('$sortedNumbers');
-//sortedNumber is now as [1.6,2.3,3.1,4.5,5.3,6.1,7.9,8.3,9.0]
+numbers.quickSort();
+print('$numbers');
+//numbers is now as [1.6,2.3,3.1,4.5,5.3,6.1,7.9,8.3,9.0]
 ```
 
 Add a value and sort list
 ```dart
 var numbers = [9,3,2,6,4,5,1,7];
-var sortedtNumbers = numbers.addAndSort(item:8);
-print('$sortedNumbers');
-//sortedNumber is now as [1,2,3,4,5,6,7,8,9]
+numbers.addAndSort(item:8);
+print('$numbers');
+//numbers is now as [1,2,3,4,5,6,7,8,9]
 ```
 
 **For list of String**
@@ -53,18 +53,18 @@ print('$sortedNumbers');
 List of String has only simple sort
 ```dart
 var names = ['bac','cab','abc'];
-var sortedName = names.simpleSort();
-print('$sortedNumbers');
-//sortedNumber is now as ['abc','bac,','cab']
+names.simpleSort();
+print('$names');
+//names is now as ['abc','bac,','cab']
 ```
 
 Add a string to the list and sort
 
 ```dart
 var names = ['bac','dab','abc'];
-var sortedName = names.addAndSort(item:'abc');
-print('$sortedNumbers');
-//sortedNumber is now as ['abc','bac,','cab','dab']
+names.addAndSort(item:'abc');
+print('$names');
+//names is now as ['abc','bac,','cab','dab']
 ```
 
 **For list of Maps**
@@ -76,8 +76,8 @@ var maps = [
   {'age':11,'name':'bac'},
   {'age':16,'name':'cab'},
 ];
-var sortedtMaps = numbers.simpleSort(sortBy: 'age');
-print('$sortedNumbers');
+maps.simpleSort(sortBy: 'age');
+print('$maps');
 //sortedMaps is now as [{'age':11,'name':'bac'},{'age':12,'name':'abc'},{'age':16,'name':'cab'}]
 ```
 
@@ -88,8 +88,8 @@ var maps = [
   {'age':11,'name':'bac'},
   {'age':16,'name':'cab'},
 ];
-var sortedtMaps = numbers.quickSort(sortBy: 'age');
-print('$sortedNumbers');
+maps.quickSort(sortBy: 'age');
+print('$maps');
 //sortedMaps is now as [{'age':11,'name':'bac'},{'age':12,'name':'abc'},{'age':16,'name':'cab'}]
 ```
 
@@ -100,8 +100,8 @@ var maps = [
   {'age':11,'name':'bac'},
   {'age':16,'name':'cab'},
 ];
-var sortedtMaps = numbers.addAndSort(item:{'age':14,'name':'dac'},sortBy: 'age');
-print('$sortedNumbers');
+maps.addAndSort(item:{'age':14,'name':'dac'},sortBy: 'age');
+print('$maps');
 //sortedMaps is now as [{'age':11,'name':'bac'},{'age':12,'name':'abc'},{'age':14,'name':'dac'},{'age':16,'name':'cab'}]
 ```
 
