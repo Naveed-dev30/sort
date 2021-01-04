@@ -1,7 +1,6 @@
 name: sort
 description: Flutter package for sorting numbers, lists, maps, doubles and dates with quick and simple sort algorithms
 version: 0.0.1
-author: Naveed Ullah <naveed.dev30@gmail.com>
 homepage: https://github.com/naveed-dev30/sort
 
 environment:
